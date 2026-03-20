@@ -38,7 +38,7 @@ const Header = () => {
                 <div className="flex items-center justify-between h-16 md:h-20">
                     {/* Logo */}
                     <div className="flex-shrink-0">
-                        <h3 className='font-bold text-lg md:text-3xl text-white'>
+                        <h3 className='font-semibold text-lg md:text-3xl text-white tracking-normal'>
                             A House of Champions
                         </h3>
                     </div>
