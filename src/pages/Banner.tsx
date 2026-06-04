@@ -1,6 +1,13 @@
 import React from "react";
 
-const Banner = ({ text, description = "", logoUrl, position }) => {
+type BannerProps = {
+  text: string;
+  description?: string;
+  logoUrl: string;
+  position?: string; // 👈 make optional
+};
+
+const Banner = ({ text, description = "", logoUrl, position }: BannerProps) => {
   return (
     <div
       className="h-full w-full px-30"

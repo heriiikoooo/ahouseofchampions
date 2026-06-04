@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState(null);
+  const [openDropdown, setOpenDropdown] = useState<number | null>(null);
 
   // Route mapping for submenu items
   const routeMap: { [key: string]: string } = {
