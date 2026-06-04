@@ -8,8 +8,8 @@ const Vision = () => {
       <Banner text="Our Vision" logoUrl={logoUrl} />
       <div className="flex items-center justify-center py-12 ">
         <div className="w-3/7">
-          <p className="text-xl mt-4 text-justify font-light tracking-wider leading-snug">
-            <span className="font-bold text-3xl text-red-700 tracking-widest">
+          <p className="text-xl mt-4 text-justify font-light tracking-wide leading-snug">
+            <span className="font-bold text-3xl text-red-700 tracking-wide">
               {" "}
               TO GO AND MAKE DISCIPLES TO ALL NATION{" "}
             </span>{" "}
