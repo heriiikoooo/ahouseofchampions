@@ -20,8 +20,6 @@ import Events from "./pages/Events";
 import Belief from "./pages/about/Belief";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
